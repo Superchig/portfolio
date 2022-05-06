@@ -26,7 +26,7 @@
 
 		<!-- One -->
 		<section
-			class="banner style3 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+			class="banner style3 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right invert">
 			<div class="content">
 				<h1>Christopher Chang</h1>
 				<p class="major">A software engineer with a focus on game development and command-line tools.</p>
@@ -47,9 +47,18 @@
 			id="first">
 			<div class="content">
 				<h2>Kittens with Cannons</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit
-					amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus,
-					pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+				<p> Playable via
+					website. Local co-op with controllers or keyboard splitting.</p>
+				<ul>
+					<li>Wrote auto-targeting for certain bullets.</li>
+					<li>Implemented left-shooting functionality.</li>
+					<li>Set up splitting of one keyboard for two players.</li>
+					<li>Implemented CI/CD pipeline to deploy nightly builds to testers.</li>
+					<li>Writing a shell script to find all referenced URLs in our source code.</li>
+				</ul>
+				<p>
+					<i>Unity, Visual Studio, bash, GitHub Actions</i>
+				</p>
 				<ul class="actions stacked">
 					<li><a href="http://kittenswithcannons.com" class="button">Play the Game</a></li>
 				</ul>
@@ -68,19 +77,29 @@
 		</section>
 
 		<!-- Three -->
-		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in invert">
 			<div class="content">
 				<h2>Rolf</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit
-					amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus,
-					pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+				<p>A terminal file manager which displays images with the kitty image protocol. Shows the previous
+					directory, current directory, and previews in a three-pane layout.</p>
+				<p class="halfBottom">This was a solo effort, so I handled all aspects of this project myself, including:</p>
+				<ul>
+					<li>Asynchronous image rendering and input handling using <a href="https://github.com/tokio-rs/tokio">tokio</a>.</li>
+					<Li>Drawing the three panes of output.</Li>
+					<li>Configurable key rebinding.</li>
+					<li>Automated Linux and macOS builds.</li>
+				</ul>
+				<p>
+					<i>Rust, vim, GitHub Actions</i>
+				</p>
 				<ul class="actions stacked">
-					<li><a href="#" class="button">Learn More</a></li>
+					<li><a href="https://github.com/Superchig/rolf" class="button">View GitHub</a></li>
 				</ul>
 			</div>
 			<div class="image flexCenter">
 				<!-- <img src="images/spotlight02.jpg" alt="" /> -->
 				<img class="imgCenter" src="https://raw.githubusercontent.com/Superchig/rolf/main/demo.gif" alt="" />
+				<img class="imgCenter" src="images/rolf_2.gif" alt="" />
 			</div>
 		</section>
 
