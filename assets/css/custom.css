@@ -1,0 +1,21 @@
+.videoInsert {
+    width: 100%;
+}
+
+.flexCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flexTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.imgCenter {
+    position: unset !important;
+    height: unset !important;
+    width: 100% !important;
+}

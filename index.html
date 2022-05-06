@@ -11,9 +11,12 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/github-pinner.css">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<script src="assets/js/GithubPinner.js"></script>
 </head>
 
 <body class="is-preload">
@@ -23,13 +26,16 @@
 
 		<!-- One -->
 		<section
-			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+			class="banner style3 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 			<div class="content">
 				<h1>Christopher Chang</h1>
 				<p class="major">A software engineer with a focus on game development and command-line tools.</p>
 				<ul class="actions stacked">
 					<li><a href="#first" class="button big wide smooth-scroll-middle">Featured Projects</a></li>
 				</ul>
+			</div>
+			<div class="flexTop">
+				<div data="https://github.com/Superchig" class="github-pinner" style="visibility: hidden;"></div>
 			</div>
 			<!-- <div class="image">
 				<img src="images/banner.jpg" alt="" />
@@ -48,15 +54,23 @@
 					<li><a href="http://kittenswithcannons.com" class="button">Play the Game</a></li>
 				</ul>
 			</div>
-			<div class="image">
+			<!-- <div class="image">
 				<img src="images/spotlight01.jpg" alt="" />
+			</div> -->
+			<div class="image flexCenter">
+				<video class="videoInsert" preload autoplay loop muted playsinline>
+					<source src="images/koshka_1.mp4" type="video/mp4">
+				</video>
+				<video class="videoInsert" preload autoplay loop muted playsinline>
+					<source src="images/koshka_2.mp4" type="video/mp4">
+				</video>
 			</div>
 		</section>
 
 		<!-- Three -->
 		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 			<div class="content">
-				<h2>Tempus adipiscing</h2>
+				<h2>Rolf</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit
 					amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus,
 					pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
@@ -64,8 +78,9 @@
 					<li><a href="#" class="button">Learn More</a></li>
 				</ul>
 			</div>
-			<div class="image">
-				<img src="images/spotlight02.jpg" alt="" />
+			<div class="image flexCenter">
+				<!-- <img src="images/spotlight02.jpg" alt="" /> -->
+				<img class="imgCenter" src="https://raw.githubusercontent.com/Superchig/rolf/main/demo.gif" alt="" />
 			</div>
 		</section>
 
