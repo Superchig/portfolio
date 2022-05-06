@@ -23,3 +23,7 @@
 .halfBottom {
     margin-bottom: 0.5rem;
 }
+
+.fullscreenPadding {
+    padding-left: 12rem !important;
+}
