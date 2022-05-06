@@ -27,3 +27,7 @@
 .fullscreenPadding {
     padding-left: 12rem !important;
 }
+
+.moreWidth {
+    min-width: 45% !important;
+}
