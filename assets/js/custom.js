@@ -11,7 +11,6 @@
     for (const post of posts) {
       const link = post.querySelector("link").innerHTML;
       const title = post.querySelector("title").innerHTML;
-      console.log(title);
 
       $("#blog-posts").append(`<li><a href="${link}">${title}</a></li>`)
     }
