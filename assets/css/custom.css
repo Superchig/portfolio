@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .flexTop {
@@ -38,4 +39,28 @@
     justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
+}
+
+.logoContainer {
+    --size: 2.75em;
+
+    border-radius: var(--size);
+    display: inline-block;
+    height: var(--size);
+    line-height: 2.75em;
+    width: var(--size);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+
+    margin: 0 0 1rem 0;
+
+    font-size: 1.25rem;
+}
+
+.logoContainer .flexCenter {
+    width: inherit;
+    height: inherit;
+}
+
+.logoImage {
+    max-width: 2rem;
 }
