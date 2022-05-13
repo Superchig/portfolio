@@ -41,6 +41,28 @@
     min-height: 100vh;
 }
 
+@media screen and (max-width: 480px) {
+    .gp-profile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content p {
+        text-align: center;
+    }
+
+    .contentContainer {
+        flex-direction: column;
+    }
+}
+
 .logoContainer {
     --size: 2.75em;
 
